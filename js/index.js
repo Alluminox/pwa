@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
         // Estamos utilizando node.js entao .....
         navigator
         .serviceWorker
-        .register('./app.service.worker.js')
+        .register('/pwa/app.service.worker.js')
         .then((register) => {console.log('Service Worker is Registered!')})
         .catch((err) => console.error('Inválid Worker!', err));
     
