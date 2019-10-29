@@ -1,12 +1,12 @@
 let cacheName = 'notes-workers.v.1.0.0';
 let filesToCache = [
-    '/',
-    '/index.html',
-    '/style/colors.css',
-    '/style/styles.css',
-    '/js/object.observe.polyfill.js',
-    '/js/array.observe.polyfill.js',
-    '/js/index.js'
+    '/pwa/',
+    '/pwa/index.html',
+    '/pwa/style/colors.css',
+    '/pwa/style/styles.css',
+    '/pwa/js/object.observe.polyfill.js',
+    '/pwa/js/array.observe.polyfill.js',
+    '/pwa/js/index.js'
 ];
 
 /* 1-A Adiciono um listener no service worker para quando o evento de 'install' acontecer
